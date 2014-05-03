@@ -23,7 +23,7 @@ int couleurBleu = 0;
 
 void setup() {
     Serial.begin(9600); // 115200 Reactivité.
-    DmxSimple.usePin(2);
+    DmxSimple.usePin(5);
 
 
     DmxSimple.write(1, 255);
